@@ -1,10 +1,6 @@
 # Udacity Casting Agency Project
-The Casting Agency models a company that is responsible for creating movies and managing and assigning actors to those movies. The system simplify and streamline the process of Executive Producer within the company.
+This project models a company that is responsible for creating movies and managing and assigning actors to those movies. The system simplify and streamline the process of Executive Producer within the company. It was done as capstone project for full stack nanodgree. this project test backend knowledge third party services intgration.
 
-# Full Stack Nanodegree Casting Agency Capstone Project
-The Casting Agency is a full stack project that include backend and third-party Auth0 service. This project builded by me as a challenge to complete the requirments to finish the FSND scholarship nanodegree.
-The idea of the project is to demonstrate my backend skills. So, i have create a varies API endpoints, testing them, integrate a third party auth0 service and deploying into Heroku.
-The Technology used to build the project are Python and Flask micro-framework. For this Back-end i have applied the PEP-8 style.
 
 ## Getting Started
 
@@ -54,17 +50,6 @@ python app.py
 
 the `source setup.sh` will prepare all the needed environment variables to run the server.
 
-#### Testing
-
-To run the tests, run
-```
-dropdb capstone_test
-createdb capstone_test
-source setup.sh
-python test_app.py
-```
-
-NOTE: the test may take time to execute, becasue it will initialize the test database with records to complete the test.
 
 ## API Reference
 
@@ -80,7 +65,7 @@ All the responses of the API is in JSON format.
 
 This project is deployed and available on Heroku:
 ```
-https://fsnd-capstone-asiri.herokuapp.com
+https://fsnd-nora-casting.herokuapp.com
 ```
 
 ### Error
@@ -112,7 +97,7 @@ This section will contain all the endpoints with their response examples to make
 
 - Return: return list of all the available actors.
 
-- Sample Request: ```curl https://fsnd-capstone-asiri.herokuapp.com/actors```
+- Sample Request: ```curl https://fsnd-nora-casting.herokuapp.com/actors```
 
 - Arguments: None
 
@@ -123,15 +108,15 @@ This section will contain all the endpoints with their response examples to make
           "actors": [
             {
               "id": 1,
-              "name": "Ahmed Asiri",
-              "gender": "male",
-              "age": 22
+              "name": "Nora Othman",
+              "gender": "Female",
+              "age": 20
             }, 
             {
               "id": 5,
-              "name": "Fares Hadi",
-              "gender": "male",
-              "age": 26
+              "name": "Marly Rose",
+              "gender": "Female",
+              "age": 500
             }
           ]
     }
@@ -140,7 +125,7 @@ This section will contain all the endpoints with their response examples to make
 
 - Return: return list of all the available movies.
 
-- Sample Request: ```curl https://fsnd-capstone-asiri.herokuapp.com/movies```
+- Sample Request: ```curl https://fsnd-nora-casting.herokuapp.com/movies```
 
 - Arguments: None
 
